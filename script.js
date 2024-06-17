@@ -56,8 +56,8 @@ const showPassword = () => {
   let data = localStorage.getItem("passwords");
 
   if (data == null || JSON.parse(data).length == 0) {
-    passtable.innerHTML =
-      "<tr><td colspan='4'>Protect Your Digital Footprints Now!</td></tr>";
+    passtable.innerHTML = ""
+      // "  <tr><td colspan='4'>Protect Your Digital Footprints Now!</td></tr>";
   } else {
     let array = JSON.parse(data);
     let str = "";
@@ -76,7 +76,7 @@ const showPassword = () => {
       }')">Delete</button></td>
       </tr>`;
     }
-    passtable.innerHTML =
+    passtable.innerHTML = 
       "<tr><th>Website Name</th><th>Username</th><th>Password</th><th>Delete</th></tr>" +
       str;
   }

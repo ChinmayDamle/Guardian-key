@@ -38,7 +38,7 @@
   }
 
   section {
-    margin: 0 5%;
+    margin: 0 5.6%;
   }
 
   .about-containers {
@@ -51,23 +51,31 @@
     margin: 0px;
     padding: 20px;
   }
-
+  .text-container h2 {
+    width: 110px;
+    text-align: center;
+    display: flex;
+    max-width: max-content;
+  }
   #contact {
     height: 100vh;
     width: fit-content;
   }
 
-  .passtable {
+  #passtable {
     justify-content: center;
+    width: fit-content
   }
 
-  .contact-info-upper-container{
+  .contact-info-upper-container {
     width: 100%;
   }
 }
 
-
 @media screen and (max-width: 500px) {
+  #home .container {
+    margin-left: 0px;
+  }
   body {
     background-repeat: no-repeat;
     font-family: "Poppins", sans-serif;
@@ -77,14 +85,16 @@
   .password-table {
     position: relative;
     right: 100px;
+
     /* max-width: 100vh; */
   }
 
   .password-table tbody {
     margin: 10px 10px;
     position: relative;
+
+    /* display: none; */
     /* right: -2px; */
-   
   }
 
   #passtable {

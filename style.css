@@ -224,10 +224,17 @@ button[type="submit"]:hover {
 
 /* Password manager */
 #passtable {
+  margin-top: 50px;
   max-height: 100vh;
   padding-top: 20px;
+  
 }
 
+#passtable h2 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 .container-table {
   width: 50%;
   margin: 50px auto;
@@ -238,6 +245,7 @@ button[type="submit"]:hover {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  
 }
 
 .password-table th,
