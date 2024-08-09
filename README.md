@@ -71,10 +71,6 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch: `git push origin feature-branch-name`
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
+--- 
 
 Thank you for checking out **Guardian Key**! If you have any questions or feedback, feel free to reach out. Happy coding!
